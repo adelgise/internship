@@ -1,0 +1,565 @@
+body {
+    margin: 0 
+}
+
+.layout {  
+    width: 100%; 
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+    min-width: 1000px;
+}
+
+.top-bar {
+    background:linear-gradient(to right, #5086a8, #598dad, #4b83a6);
+    height: 113px;
+    width: 100%; 
+}
+
+
+.top-bar > .wrapper > img {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.top-bar > .wrapper > h1 {
+    font-family: 'Crimson Text', serif;
+    font-size: 28px;
+    color: #ffffff;
+    position: relative;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: -34px;
+}
+
+.top-bar > .wrapper > .description {
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: 55px;
+    margin-top: -20px;
+
+}
+
+.top-bar > .wrapper > .phonenumber {
+    font-family: 'Crimson Text', serif;
+    font-size: 24px;
+    color: #ffffff;
+    margin-right: 75px;
+    margin-top: -70px;
+    float: right;
+}
+
+.menu {
+    background: linear-gradient(to right, #dcdcdc, #e3e3e3, #d7d7d7);
+    height: 43px;
+    width: 100%; 
+}
+
+.nav {
+    font-size: 16px;
+    color: #3a5362;
+    font-family:'Open Sans', sans-serif;
+    position: relative;
+    text-decoration: none;
+    margin-left: 37px;
+    margin-top: 12px;
+    float: left;
+}
+
+
+.menu > .wrapper > .sign_in_up {
+    position: relative;
+    margin-top: 12px;
+    margin-right: 100px;
+    float: right;
+}
+
+.menu > .wrapper > .sign_in_up > a {
+    font-size: 16px;
+    color: #3a5362;
+    font-family:'Open Sans', sans-serif;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.menu > .wrapper > .sign_in_up > span {
+    font-size: 16px;
+    color: #3a5362;
+    font-family:'Open Sans', sans-serif;
+
+}
+
+.search {
+    background: linear-gradient(to top right,#316c93, #4f89ae, #3a87b8, #3885b4, #2c688f);
+    height: 396px;
+    width: 100%; 
+}
+
+.image_search > img {
+    margin-top: 30px;
+    margin-left: 38px;
+}
+
+
+.actions {
+    background: linear-gradient(to top,#ccf5f1, #dcfaf7, #ecfffd);
+    height: 160px;
+    width: 100%; 
+}
+
+.inline_actions > .action {
+    position: relative; 
+    display: inline-block;
+    width: 320px;
+    
+}
+
+.action > a > img {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.action > h2 {
+    font-size: 22px;
+    color: #4484ad;
+    font-family: Arial;
+    margin-left: 70px;
+    margin-top: -28px;
+    
+}
+
+.action > p {
+    font-size: 13px;
+    color: #43515a;
+    font-family: Arial;
+    margin-left: 30px;
+    
+}
+
+.listing {
+    height: 475px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.search_more {
+    display: inline-block;
+    position: relative;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.search_more > .image  {
+    line-height: 0;
+}
+
+.address {
+    background-color: #4f8fb7;
+    width: 222px;
+    height: 55px;
+    border-radius: 0 0 5px 5px;
+    
+    
+}
+
+.address > img {
+    float: right;
+    margin-right: 10px;
+    margin-top: 13px;
+    position: relative;
+}
+
+.address > span {
+    font-size: 15px;
+    color: #ffffff;
+    padding: 10px;
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+}
+
+.registration {
+background-color: #5889a6;
+height: 195px;
+
+}
+
+.class1 {
+    display: inline-block;
+    margin-left: 18px;
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.member_login {
+    background: linear-gradient(to top, #699cbd, #80b8dc);
+    border-radius: 10px; 
+    border-width: 1px;
+    border-color: #d7d7d7;
+    border-style: solid;
+    padding: 10px 0 0 20px;
+    width: 454px;
+    height: 105px;
+}
+
+
+.member_login > form > h3 {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: Arial;
+    margin: 0;
+    width: 300px
+}
+
+.member_login > form > input[type=text] {
+    border-radius: 7px;
+    border-width: 0;
+    background-color: #ffffff;
+    width: 139px;
+    height: 30px;
+    margin: 22px 17px 20px 0;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.member_login > form > ::placeholder {
+    color: #4b7d9b;
+
+}
+.member_login > form > input[type=password] {
+    border-radius: 7px;
+    border-width: 0;
+    background-color: #ffffff;
+    width: 139px;
+    height: 30px;
+    margin: 22px 13px 20px 0;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.member_login > form > input[type=submit] {
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #d7d7d7;
+    background: linear-gradient(to top, #699cbd, #80b8dc);
+    width: 95px;
+    height: 35px;
+    margin: 22px 20px 20px 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signup {
+    background: linear-gradient(to top, #699cbd, #80b8dc);
+    border-radius: 10px; 
+    border-width: 1px;
+    border-color: #d7d7d7;
+    border-style: solid;
+    width: 474px;
+    height: 45px;
+    margin: 10px 0px 0px 0;
+   
+}
+.signup > h3{
+    margin: 0 0 0 50px;
+    display: inline-block;
+    width: 220px;
+    height: 35px;
+    top: -23px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+
+}
+
+
+.signup > .orangebutton {
+    width: 156px;
+    height: 0;
+    display: inline-block;
+    border: 22px solid transparent; 
+    border-color: #ff7610 #ff7610 #ff7610 transparent;  
+    border-radius: 0 10px 10px 0;
+}
+
+.signup > .orangebutton > button[type=button]{
+    background-color: transparent;
+    border: 0;
+    font-size: 22px;
+    height: 44px;
+    width: 140px;
+    color: #ffffff;
+    position: relative;
+    bottom: 22px;
+    left: 10px;
+}
+
+.class2 {
+    display: inline-block;
+    margin-right: 2px;
+    position: relative;
+    top: 9px;
+    margin-left: 10px;
+}
+
+.subscribe {
+    background: linear-gradient(to top, #699cbd, #80b8dc);
+    border-radius: 10px; 
+    border-width: 1px;
+    border-color: #d7d7d7;
+    border-style: solid;
+    padding: 10px 15px 20px 20px;
+    width: 435px;
+    
+}
+
+
+.subscribe > form > h3 {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.subscribe > form > input[type=email] {
+    border-radius: 7px;
+    border-width: 0;
+    background-color: #ffffff;
+    width: 290px;
+    height: 33px;
+    margin: 25px 10px 0 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.subscribe > form > ::placeholder {
+    color: #4b7d9b;
+}
+
+.subscribe > form > input[type=submit] {
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #d7d7d7;
+    background: linear-gradient(to top, #699cbd, #80b8dc);
+    width: 108px;
+    height: 35px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.social {
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #4b7d9b;
+    height: 230px;
+    clear: both;
+}
+
+.footer_menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.footer_menu > .about_us, .proparties, .testimonials, .footer_logo > h3 {
+    color: #ffffff;
+}
+.about_us, .proparties, .testimonials, .footer_logo {
+    width: 25%;
+    padding: 0 0 0 15px;
+    align-content: center;
+}
+
+
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+li > a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 22px;
+
+}
+
+.footer_logo > img {
+    float: left;
+    margin: 20px 5px 5px 10px;
+    height: 31px;
+}
+
+.footer_logo > h3 {
+    margin: 15px 5px 5px 15px;
+    position: relative;
+    top: 20px;
+    right: 15px;
+    font-size: 17.32px;
+}
+
+.footer_logo > span {
+    color: #ffffff;
+    margin: 15px 5px 5px 15px;
+    position: relative;
+    top: 60px;
+    right: 30px;
+    font-size: 13px;
+}
+
+.image_block {
+    display: inline-block;
+    float: left;
+    border-width: 8px;
+    border-color: #f2e8e8;
+    border-style: solid;
+    height: 327px;
+    width: 489px;
+    margin-top: 20px;
+    margin-left: 27px;
+}
+
+
+.text_search {
+    background-color: #1a425a;
+    border-width: 1px 0 0 0;
+    border-color: #3686b8;
+}
+
+.image_text1 {
+    color: #ffffff;
+    font-size: 20px;
+    display: block;
+    padding: 15px 0 0 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.image_text2 {
+    color: #ffffff;
+    font-size: 14px;
+    display: block;
+    padding: 5px 0 10px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.searchbar {
+    width: 200px;
+    margin: 0 20px;
+    display: inline-block;
+}
+
+.korpus {
+    height: 350px;
+    width: 415px;
+    top: 30px;
+    position: relative;
+
+}
+
+.korpus > .tenants > span {
+    display: block;
+}
+.korpus > div, .korpus > input { 
+    display: none;
+ }
+
+.korpus label { 
+    padding: 10px 30px; 
+    border: 0px;
+    border-radius: 10px 10px 0 0; 
+    line-height: 28px; 
+    cursor: pointer; 
+    position: relative;
+    bottom: 1px;
+    background: #5899c1; 
+    color: #ffffff;
+    font-size: 22px;
+    font-family: sans-serif;
+    }
+
+.korpus input[type="radio"]:checked + label { 
+    border-bottom: 2px solid #fff; 
+}
+
+.korpus > input:nth-of-type(1):checked ~ div:nth-of-type(1),
+.korpus > input:nth-of-type(2):checked ~ div:nth-of-type(2) { 
+    display: block; 
+    padding: 20px;
+    border: 0;
+    border-radius: 0 10px 0 0; 
+    }
+
+.korpus > .tenants > input[type=text] {
+    width: 340px;
+    height: 8px;
+    border-radius: 10px;
+    border-color: #316e94;
+    border-width: 2px;
+    padding: 20px;
+}    
+
+.korpus > .tenants > input::placeholder {  
+   color: #316e94;
+   font-size: 17px;
+   font-family: sans-serif;
+   margin: 0;
+}  
+
+.tenants > button[type=button]{
+    background-color: #4d8eb7;
+    font-size: 22px;
+    height: 40px;
+    width: 214px;
+    color: #ffffff;
+    position: relative;
+    left:150px;
+    top: 40px;
+    border-width: 3px;
+    border-color:#d5d6d7;
+    border-radius: 10px;
+}
+
+
+.tenants {
+    background: linear-gradient(to top, #3885b4, #5899c1, #5494bc); 
+    height: 280px;
+}
+
+.tenants > span {
+    color:#ffffff;
+    line-height: 35px;
+    font-family: sans-serif;
+
+}    
+
+.tenants > form > span {
+    color:#ffffff;
+    line-height: 35px;
+    font-family: sans-serif;
+
+} 
+
+option {
+    color: #316c93;
+    font-size: 14px;
+    font-family: sans-serif;
+
+}
